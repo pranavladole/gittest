@@ -9,7 +9,7 @@ public class TestController {
 	
 	@GetMapping("/nci")
 	public String test() {
-		return "tested nci from eclipse";
+		return "tested nci from eclipse!";
 	}
 
 	
