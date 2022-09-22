@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ladoSample'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EFFCB59F2F5E40FFBAF15ADDA598AF6C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_32D0F162B39045CD9CC518400934DB1C }}
           package: '*.jar'
